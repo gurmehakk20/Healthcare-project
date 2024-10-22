@@ -1,0 +1,8 @@
+Features to be added
+1. Doctor appointment 
+2. Routine checkup Tracker
+3. Ambulance tracking
+4. Lab test
+5. General consultation 
+6. Pharmacy Tracks
+7. Appointment reminder
