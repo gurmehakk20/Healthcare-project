@@ -7,7 +7,7 @@ const connectDB = async () => {
     }
     catch (err){
         console.log(err);
-        process.exit(1);
+        process.exit(1); //termiante the process immediatly , 0 success , 1 fail
     }
 }
 module.exports = connectDB;
