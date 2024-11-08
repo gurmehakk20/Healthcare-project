@@ -1,5 +1,3 @@
-
-
 const mongoose = require("mongoose");
 
 const doctorSchema = mongoose.Schema({
@@ -23,10 +21,7 @@ const doctorSchema = mongoose.Schema({
         type : Number , 
         require : [ true , "please add your experience"],
     },
-    speciality:{
-        type : String , 
-        require : [ true , "please add your speciality"],
-    },
+    
     password:{
         type : String,
         require : [ true , "please add your passwprd"],

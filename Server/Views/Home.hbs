@@ -6,8 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    {{> headers}} <!-- Use the registered partial -->
+    {{> Headers}} <!-- Use the registered partial -->
     <h2>Welcome to the Home Page</h2>
     <p>This is the homepage content.</p>
+
+    <div class="container">
+        
+        <form action="/profile" method="post" enctype="multipart/form-data">
+            <input type="file" name="avatar" />
+            <input type="submit" value="Upload" />
+            
+        </form>
+    </div>
+    
 </body>
 </html>
